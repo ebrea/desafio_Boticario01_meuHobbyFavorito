@@ -1,0 +1,78 @@
+/* */
+*{ margin: 0; 	padding: 0; }  /*  limpando as margens do navegador */
+
+/* ================  Cor de Fundo    ============================ */
+body { background-color: rgb(220, 220, 220);}
+
+/*=================  título principal "Futebol"  ================= */  
+h1, h2 {
+	text-align: center;
+	padding: 20px 0px;	
+}	
+
+/*================== foto principal  ======================*/
+#area-da-foto {
+	text-align: center;
+	padding: 0px;
+}
+#foto-principal {
+	width:70%;
+}
+
+/*-----------------   texto "Sobre o Futebol"  ----------------*/
+div {
+	padding: 0 20px;
+}
+
+p { 
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*---------------  título: "Dicas para a prática do Futebol"  ------------*/  
+.dicas {
+	padding: 0 20px;
+}
+/*---------------  tópicos das Dicas ------------*/ 
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 36%;
+	margin: 20px;
+}
+
+li {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.foto {
+	width: 30%;
+}
+
+.jogador {
+	display: inline-block;
+	width: 68%;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.minhasFotos {
+	vertical-align: top;
+	width: 33%;
+	margin-top: 5px;
+}
+
+.minhasFotos2 {
+	vertical-align: top;
+	width: 33%;
+	margin-top: 5px;
+	height: 700px;
+}
+footer p {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 18px;
+	color: lightgrey;
+	font-style: italic;
+	text-align: right;	
+	padding: 0 30px 10px;
+}
